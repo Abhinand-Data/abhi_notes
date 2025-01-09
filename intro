@@ -1,0 +1,21 @@
+SELF INTRO:
+
+Hello, my name is Abhinand, and I bring 8.9 years of total IT experience, including 4 years in Azure Data Engineering and 2 years in PySpark-based Big Data solutions.
+I hold certifications as a Microsoft Certified Azure Data Engineer Associate and a Databricks Certified Associate Developer for Apache Spark, showcasing my dedication to mastering advanced data engineering tools and technologies.
+My core expertise lies in designing and implementing scalable data pipelines and analytics solutions by leveraging both Azure cloud and big data technologies.
+I have hands-on experience with tools such as Azure Data Factory, Azure Data Lake, Azure Databricks, Azure Synapse Analytics, and Power BI to build end-to-end pipelines and provide actionable insights for business decision-making. Additionally, I am proficient with technologies like PySpark, Apache Spark, Kafka, Hadoop, HDFS, Hive, Yarn, Impala, and HBase, which enable me to efficiently manage and process large-scale datasets.
+
+In my Azure Data Engineering, I have:
+
+Developed end-to-end ETL pipelines.
+Implemented Data Lake Architecture with Medallion layers (Bronze, Silver, Gold).
+Performed advanced data transformation and validation.
+Delivered interactive visualizations using Power BI.
+
+On the Big Data front, I have:
+
+created data pipeline to extract file based data source from HDFS and transformed the data as per business needs using PySpark 
+Monitored and Optimized PySpark jobs and workflows for enhanced performance.
+Created Hive scripts for schema changes.
+
+I am deeply passionate about crafting data-driven solutions that empower organizations to unlock insights, improve operations, and achieve their business objectives.
