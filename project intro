@@ -1,0 +1,13 @@
+PROJECT FLOW:
+
+As an Azure Data Engineer, I am currently working on an end-to-end analytical platform for our client, RAKBANK. The project involves processing and analyzing various types of data, including transactional data, customer data, promotional data, card data, and other banking-related datasets. We handle data from multiple sources, such as SQL Server, Oracle, and APIs, and are building robust, scalable pipelines to seamlessly transfer this data to cloud-based systems using Azure technologies. At the ingestion layer, we use Azure Data Factory (ADF) to orchestrate and automate data movement. In ADF, I have implemented various activities such as Copy Activity, GetMetadata Activity, and ForEach Activity to extract data from the sources and load it into Azure Data Lake Storage (ADLS) Gen2. 
+
+Within ADLS Gen2, we have implemented the Medallion Architecture using Azure Databricks to organize and manage data effectively:
+
+Bronze Layer: Handles raw data ingestion with validations, schema checks, and handling of null values.
+Silver Layer: Performed data transformations based on business logic provided by the data modeling team and business analysts. These transformations are automated using a combination of SQL functions and PySpark scripts within Azure Databricks.
+Gold Layer: Stores aggregated and curated data. For larger datasets, we integrate the Gold Layer with Azure Synapse Analytics or Azure SQL Database to handle high-performance analytical workloads.
+
+Once the data is prepared and available in the Gold Layer or Azure Synapse Analytics, it is handed off to the Power BI developers, who create interactive dashboards by connecting directly to ADLS Gen2 or Synapse. This enables insightful data visualization and decision-making.
+
+This project has provided me with extensive experience in Azure Data Factory, Azure Databricks, ADLS Gen2, PySpark, SQL, and Azure Synapse Analytics, as well as implementing best practices in data engineering and analytics pipelines.
